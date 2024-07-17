@@ -1,5 +1,5 @@
-In this repository I will upload the scripts written in order to learn a bit of Biodata analisys, in particular GWAS.
-The first script is built to perform the QC of the genetics datasets.
+In this repository I will upload the scripts. I want to try to learn a bit of Biodata analisys, in particular GWAS.
+All the work is performed on LINUX machine.
 
 The explanation of the script:
 1. "Script1_QC_finito.sh": it's the script to perform the Quality Check on the SNPs
