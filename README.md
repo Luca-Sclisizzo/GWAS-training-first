@@ -6,3 +6,4 @@ Contents of the scripts:
 2. "Script2_PCA.sh": it's the script to perfotm the PCA on the samples
 3. "population_info.txt": this is the txt file that contains the information of the samples' population
 4. "PCA-plot": this is the python script to plot the PCA
+5. "Phasing.py": this is the script to compute phasing with eagle
