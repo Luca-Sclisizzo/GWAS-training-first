@@ -7,3 +7,5 @@ Contents of the scripts:
 3. "population_info.txt": this is the txt file that contains the information of the samples' population
 4. "PCA-plot": this is the python script to plot the PCA
 5. "Phasing.py": this is the script to compute phasing with eagle
+6. "GWAS_regression": it'a a small script to compute the linear logistic regression with a binary phenotype and PCA scorea as covariate
+7. "Manhattan_plot": it'a a pyhton script to show (and #save) the Manhattan plot. It uses gwaslab library. Here for more details on the visualisation options (https://github.com/Cloufield/gwaslab/blob/main/docs/Visualization.md#28-highlight-specified-loci
