@@ -1,0 +1,14 @@
+# I will write the script for the regression of GWAS with pheno (0;1)
+# The pheno file is sample_pheno_file.txt
+# The bfile is sample_data.clean
+# The covariate file (PCA) is sample_results.clean_projected.sscore
+
+plink2 \
+	--bfile sample_data.clean \
+	--pheno sample_pheno_file.txt \
+	--pheno-name B1 \
+	--maf 0.01 \
+	--covar sample_results.clean_projected.sscore \
+	--covar-col-nums 5-14 \
+	--glm hide-covar firth  firth-residualize single-prec-cc \
+	--out GWAS_regression_binary
